@@ -30,3 +30,10 @@
 - As you can see that, we have seen the Redis
 
 ## 2. Commands
+
+- Enter into a Redis shell
+  - redis-cli
+- Set key and value
+  - set `<key>` `<value>` # Ex: set name Jefté
+- Get value
+  - get `<key>` # Ex: get name
