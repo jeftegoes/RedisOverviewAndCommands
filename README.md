@@ -33,7 +33,13 @@
 
 - Enter into a Redis shell
   - redis-cli
-- Set key and value
+- Get all keys
+  - keys *
+- Set key and value if type is string
   - set `<key>` `<value>` # Ex: set name Jefté
-- Get value
+- Get value if type is string
   - get `<key>` # Ex: get name
+- Get value if type is hash
+  - hgetall `<key>`
+- Knowing type of key
+  - type `<key>`
